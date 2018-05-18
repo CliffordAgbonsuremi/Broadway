@@ -1,17 +1,22 @@
+/* CSS formating arranged from top of webpage to the bottom*/
 body{
+  /* General formatting for entire HTML body */
   text-align: center;
   font-family: Helvetica;
 }
 #header{
+  /* Background picture for the heading and top navigation */
   background-image: url("../pictures/the-flatiron-building.png");
   background-size: cover;
 }
 h1{
+  /* Formatting for heading specific h1 element */
   font-size: 70px;
   font-weight: bold;
   color: white;
 }
 #nav_top{
+  /* Formatting for heading specific to navigation */
   font-family: Helvetica;
   font-size: 18px;
   color: white;
@@ -19,17 +24,21 @@ h1{
   height: 40px;
 }
 h2{
+  /* Formatting for main_body class specific to h2 elements */
   font-size: 32px;
   font-weight: bold;
 }
 h3{
+  /* Formatting for main_body class specific to h3 elements */
   font-size: 23px;
   font-weight: bold;
 }
 p{
+  /* Formatting for body elements specific to p elements */
   font-size: 14px;
 }
 #divider{
+    /* Background picture and formatting middle demacation */
   background-image: url("../pictures/the-flatiron-building.png");
   background-size: cover;
   font-weight: bold;
@@ -37,11 +46,13 @@ p{
   font-size: 23px;
 }
 #nav_bottom{
+  /* Formatting for footer specific to navigation */
   font-family: Helvetica;
   font-size: 18px;
   color: white;
 }
 #footer{
+  /* General formatting for footer */
   font-size: 11px;
   color: white;
   background-color: dimgray;
